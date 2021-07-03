@@ -1,7 +1,10 @@
-# create env
+
+
+## Python Environment
+### Create env
 conda create --name bottlerocketv1 python=3.9 -y
 
-# write env to file
+### Write env to file
 conda env export > environment.yml
 
 conda activate bottlerocket
@@ -9,7 +12,7 @@ conda deactivate
 
 conda info --envs
 
-# run env
+### Run env
 conda activate bottlerocket
 jupyter lab
 
